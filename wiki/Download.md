@@ -43,9 +43,9 @@ Biopython-corba
 
 ### Required Software
 
-`   * omniORBpy`  
-`   * Fnorb`  
-`   * orbit-python`
+-   omniORBpy
+-   Fnorb
+-   orbit-python
 
 Old Releases
 ============
