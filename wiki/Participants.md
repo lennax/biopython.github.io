@@ -3,15 +3,10 @@ title: Participants
 layout: wiki
 ---
 
-|     |     |
-|-----|-----|
-| 1   | 2   |
-| 3   | 4   |
-
 |                         |                                                       |
 |-------------------------|-------------------------------------------------------|
 | Name                    | Sebastian Bassi                                       |
-| E-mail                  | sbassi@genesdigitales.com                             |
+| E-mail                  | <sbassi@genesdigitales.com>                           |
 | Affiliation             | Universidad Nacional de Quilmes                       |
 | Location                | Balcarce, Buenos Aires, Argentina                     |
 | Uses Python for         | Bioinformatics and data manipulation                  |
