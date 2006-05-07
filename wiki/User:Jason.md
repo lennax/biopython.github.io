@@ -1,6 +1,6 @@
 ---
 title: User:Jason
-redirect_to: /wiki/bp:Jason_Stajich
+layout: wiki
 ---
 
-You should automatically be redirected to [bp:Jason Stajich](/wiki/bp:Jason_Stajich)
+My page on [bioperl site](bp:User:Jason "wikilink").
