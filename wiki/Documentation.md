@@ -143,7 +143,7 @@ PDF | tarball with LaTex source
 -   How to contribute code to Biopython.
 
   
-HTML
+[HTML](Contributing "wikilink")
 
 -   Instructions for building releases of Biopython.
 
