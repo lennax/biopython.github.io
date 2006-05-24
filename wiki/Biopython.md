@@ -3,7 +3,7 @@ title: Biopython
 layout: wiki
 ---
 
-![](Example.jpg "Example.jpg")
+![](biopython_small.jpg "biopython_small.jpg")
 
 ### About the Biopython project
 
