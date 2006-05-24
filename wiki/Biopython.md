@@ -3,6 +3,8 @@ title: Biopython
 layout: wiki
 ---
 
+![](Example.jpg "Example.jpg")
+
 ### About the Biopython project
 
 The Biopython Project is an international association of developers of
