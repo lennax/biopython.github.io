@@ -55,7 +55,7 @@ layout: wiki
 
 ::[HTML](http://biopython.open-bio.org/static/DIST/docs/cookbook/LogisticRegression.html)
 |
-[PDF](http://biopython.open-bio.org/static/DIST/docs/cookbook/LogisticRegression.html)
+[PDF](http://biopython.open-bio.org/static/DIST/docs/cookbook/LogisticRegression.pdf)
 
 :\*The Biopython Structural Bioinformatics FAQ.
 
