@@ -3,6 +3,9 @@ title: Mailing lists
 layout: wiki
 ---
 
+To avoid spam, you can post a message only if you are subscribed to the
+mailing list.
+
 ### Announcement List
 
 <biopython-announce@biopython.org>
