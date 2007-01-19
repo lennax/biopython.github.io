@@ -1,8 +1,5 @@
 ---
 title: Getting Started
-tags:
- - Documentation
- - TODO
 ---
 
 --[Jblucks](User:Jblucks "wikilink") 16:36, 19 January 2007 (EST): This
@@ -68,7 +65,6 @@ Beginners
 Further reading
 ---------------
 
--   Read the other [HOWTOs](HOWTOs "wikilink")
 -   Use the Wiki Search tools to find more information on
     specific topics.
 
