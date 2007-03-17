@@ -3,8 +3,8 @@ title: Download
 layout: wiki
 ---
 
-Current Release -- 1.42 -- 16 July 2006
-=======================================
+Current Release -- 1.43 -- 17 March 2007
+========================================
 
 ### Installation Instructions
 
