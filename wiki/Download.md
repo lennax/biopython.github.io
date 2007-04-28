@@ -85,8 +85,7 @@ Biopython-corba
 Packages
 ========
 
-Ubuntu
-------
+### Ubuntu
 
 Biopython 1.41 packages for Ubuntu (Dapper):
 
@@ -100,8 +99,7 @@ biopython 1.42 AMD64 packages backported for Edgy here:
 -   [python-biopython-sql\_1.42-2\_all.deb](http://students.ee.sun.ac.za/~nmarais/files/python-biopython-sql_1.42-2_all.deb)
 -   [python-biopython\_1.42-2\_amd64.deb](http://students.ee.sun.ac.za/~nmarais/files/python-biopython_1.42-2_amd64.deb)
 
-Fedora
-------
+### Fedora
 
 [Fedora Core
 5](http://download.fedora.redhat.com/pub/fedora/linux/extras/5/i386/repoview/python-biopython.html),
