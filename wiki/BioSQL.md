@@ -56,6 +56,8 @@ Ubuntu Linux machine try this:
 
 You may find perl is already installed.
 
+For Windows users, see [BioSQL/Windows](BioSQL/Windows "wikilink").
+
 Downloading the BioSQL Schema & Scripts
 ---------------------------------------
 
