@@ -1,0 +1,11 @@
+---
+title: BioSQL/Windows
+layout: wiki
+---
+
+### MySQL
+
+Get MySQL from <http://dev.mysql.com/downloads/mysql/5.1.html#win32>
+
+Get MySQLdb (the python interface) from
+<http://sourceforge.net/projects/mysql-python>
