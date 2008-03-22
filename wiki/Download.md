@@ -3,8 +3,8 @@ title: Download
 layout: wiki
 ---
 
-Current Release -- 1.44 -- 28 October 2007
-==========================================
+Current Release -- 1.45 -- 22 March 2008
+========================================
 
 See also [What's new](http://biopython.open-bio.org/SRC/biopython/NEWS).
 
