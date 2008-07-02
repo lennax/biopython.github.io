@@ -78,7 +78,7 @@ Possible additional formats
 ---------------------------
 
 There are existing parsers in BioPython for the following file formats,
-which could be integrated into Bio.SeqIO if appropriate.
+which could be integrated into Bio.SeqIO or Bio.AlignIO if appropriate.
 
 ### NBRF / PIR format
 
