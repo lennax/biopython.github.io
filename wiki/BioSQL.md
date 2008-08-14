@@ -346,7 +346,7 @@ Extracting Sequences from the database
 ======================================
 
 This continues from the previous example, where we loaded three records
-into an *orchids* database:
+into an *orchids* database (namespace):
 
 ``` python
 from BioSQL import BioSeqDatabase
