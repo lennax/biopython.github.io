@@ -3,7 +3,8 @@ title: SourceCode
 layout: wiki
 ---
 
-**Biopython source code**
+Biopython source code
+---------------------
 
 The source code from Biopython is freely available for your use and
 contribution. The core developers maintain a stable trunk under revision
