@@ -44,6 +44,7 @@ be expected
 
 -   STRUCTURE support
 -   LDNe support
+-   Marker independent statistics
 
 Code and contributing
 ---------------------
