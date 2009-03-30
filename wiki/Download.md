@@ -122,10 +122,6 @@ a Gnu/Linux system, you could use one of the followings:
 
 `sudo easy_install -f `[`http://biopython.org/DIST/`](http://biopython.org/DIST/)` biopython`
 
-or
-
-`su -; easy_install -f `[`http://biopython.org/DIST/`](http://biopython.org/DIST/)` biopython`
-
 Packages
 ========
 
