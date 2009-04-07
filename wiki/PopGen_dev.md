@@ -44,7 +44,7 @@ be expected
 
 -   STRUCTURE support
 -   LDNe support
--   Marker independent statistics
+-   [Statistics](PopGen_dev_Statistics "wikilink")
 
 Code and contributing
 ---------------------
