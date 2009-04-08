@@ -1,6 +1,8 @@
 ---
 title: User:Peter
 layout: wiki
+tags:
+ - People
 ---
 
 I'm one of the many [Biopython participants](Participants "wikilink"),
