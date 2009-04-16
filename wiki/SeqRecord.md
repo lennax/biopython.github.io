@@ -1,5 +1,7 @@
 ---
 title: SeqRecord
+tags:
+ - Wiki Documentation
 ---
 
 This page describes the **SeqRecord** object used in BioPython to hold a
