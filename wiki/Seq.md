@@ -1,6 +1,8 @@
 ---
 title: Seq
 layout: wiki
+tags:
+ - Wiki Documentation
 ---
 
 In Biopython, sequences are usually held as **Seq** objects, which hold
