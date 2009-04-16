@@ -1,5 +1,7 @@
 ---
 title: PopGen
+tags:
+ - Wiki Documentation
 ---
 
 Population genetics in Biopython
