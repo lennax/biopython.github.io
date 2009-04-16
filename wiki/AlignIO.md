@@ -1,5 +1,7 @@
 ---
 title: AlignIO
+tags:
+ - Wiki Documentation
 ---
 
 This page describes Bio.AlignIO, a new multiple sequence Alignment
