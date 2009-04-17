@@ -3,7 +3,7 @@ title: User:Davidw/homepage
 layout: wiki
 ---
 
-(an example of a more exciting and inviting(?) front page.)
+(an example of a more inviting(?) front page.)
 
 ### Introduction
 
