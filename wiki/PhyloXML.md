@@ -57,19 +57,35 @@ Both functions accept either a file name or an open file handle, so phyloXML dat
 
 ===Writing phyloXML files===
 
-The PhyloXML.Writer module exports one function to the top level of the package: write().
+The PhyloXML.Writer module exports one function to the top level of the package: write(). It accepts a Phyloxml object (the result of read() or to_phyloxml()) and either a file name or a handle to an open file-like object. Optionally, an encoding other than UTF-8 can be specified.
 
-===Using PhyloXML objects===
+<source lang=python>
+>>> phx = PhyloXML.read('phyloxml_examples.xml')
+>>> print phx.other
+[Other(tag=alignment, namespace=http://example.org/align)]
+>>> phx.other = []
+>>> PhyloXML.write(phx, 'ex_no_other.xml')
+>>> phx_no = PhyloXML.read('ex_no_other.xml')
+>>> phx_no.other
+[]
+```
+
+### Using PhyloXML objects
 
 Standard Python syntactic sugar is supported wherever it's reasonable.
 
-* __str__ makes a string of the object's class name and an identifier, suitable for labeling a node in generated graph
-* __repr__ makes a string in the usual Biopython format, resembling the object constructor call
-* __iter__ is supported by Phyloxml and Clade objects, iterating over the contained phylogenies and sub-clades, respectively
-* __len__ is supported by the same objects that support iteration, with expected results
+-   \_\_str\_\_ makes a string of the object's class name and an
+    identifier, suitable for labeling a node in generated graph
+-   \_\_repr\_\_ makes a string in the usual Biopython format,
+    resembling the object constructor call
+-   \_\_iter\_\_ is supported by Phyloxml and Clade objects, iterating
+    over the contained phylogenies and sub-clades, respectively
+-   \_\_len\_\_ is supported by the same objects that support iteration,
+    with expected results
 
 Clade objects also support extended indexing:
-<source lang=python>
+
+``` python
 tree = PhyloXML.parse('example.xml').next()
 assert tree.clade[0] == tree.clade.clades[0]
 assert tree.clade[0,1] == tree.clade.clades[0].clades[1]
