@@ -54,7 +54,7 @@ def retrieve_annotation(id_list):
     annotations = Entrez.read(data)
 
     print "Retrieved %d annotations for %d genes" % (len(annotations),
-            len(idList))
+            len(id_list))
 
     return annotations
 ```
