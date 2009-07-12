@@ -1,6 +1,8 @@
 ---
 title: GFF Parsing
 layout: wiki
+tags:
+ - Wiki Documentation
 ---
 
 GFF Parsing
@@ -63,5 +65,3 @@ GFF Parsing
 
 Writing GFF3
 ------------
-
-\[Category:Wiki Documentation\]
