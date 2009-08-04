@@ -147,10 +147,6 @@ print ctrl.get_avg_fis()
 ```
 
 ``` python
-print ctrl.test_hw(1, "excess")
-```
-
-``` python
 print ctrl.get_multilocus_f_stats()
 ```
 
@@ -163,6 +159,10 @@ print ctrl.get_f_stats("Locus2")
 ``` python
 print ctrl.test_ld_all_pair("Locus1", "Locus2",
     dememorization=1000, batches=10, iterations=100)
+```
+
+``` python
+print ctrl.test_hw(1, "excess")
 ```
 
 ### Isolation By Distance (IBD)
