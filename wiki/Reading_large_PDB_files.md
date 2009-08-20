@@ -45,7 +45,7 @@ left for another article.
 
 ``` python
 import Bio.PDB
-import xpdb
+import xpdb   # this is the module described below
 
 # read
 sloppyparser = Bio.PDB.PDBParser(PERMISSIVE=True,structure_builder=xpdb.SloppyStructureBuilder())
