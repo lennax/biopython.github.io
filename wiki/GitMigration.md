@@ -3,8 +3,8 @@ title: GitMigration
 layout: wiki
 ---
 
-We are currently testing the benefits of migration to Git distributed
-version control.
+We have recently migrated to git distributed version control (instead of
+[CVS](CVS "wikilink")).
 
 The process of development of Biopython with git is outlined
 [here](GitUsage "wikilink").
