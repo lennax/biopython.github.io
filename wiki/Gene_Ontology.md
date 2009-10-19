@@ -63,7 +63,7 @@ NetworkX to represent the ontologies.
 
 ### Sources of Code/Inspiration
 
-#### Bioperl
+#### BioPerl
 
 [BioPerl](http://bioperl.org/) has [a package providing GO
 support](http://doc.bioperl.org/bioperl-live/Bio/Ontology/toc.html). It
