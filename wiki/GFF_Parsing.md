@@ -137,13 +137,12 @@ GFF Parsing
 ### Basic GFF parsing
 
 ``` python
-from BCBio.GFF import GFFParser
+from BCBio import GFF
 
 in_file = "your_file.gff"
-parser = GFFParser()
 
 in_handle = open(in_file)
-for rec in parser.parse(in_handle):
+for rec in GFF.parse(in_handle):
     print rec
 in_handle.close()
 ```
@@ -151,7 +150,7 @@ in_handle.close()
 ### Providing initial sequence records
 
 ``` python
-from BCBio.GFF import GFFParser
+from BCBio import GFF
 from Bio import SeqIO
 
 in_seq_file = "seqs.fa"
@@ -160,9 +159,8 @@ seq_dict = SeqIO.to_dict(SeqIO.parse(in_seq_handle, "fasta"))
 in_seq_handle.close()
 
 in_file = "your_file.gff"
-parser = GFFParser()
 in_handle = open(in_file)
-for rec in parser.parse(in_handle, base_dict=seq_dict):
+for rec in GFF.parse(in_handle, base_dict=seq_dict):
     print rec
 in_handle.close()
 ```
@@ -170,16 +168,15 @@ in_handle.close()
 ### Limiting parsed lines
 
 ``` python
-from BCBio.GFF import GFFParser
+from BCBio import GFF
 
 in_file = "your_file.gff"
-parser = GFFParser()
 
 limit_info = dict(
         gff_source = ["Coding_transcript"])
 
 in_handle = open(in_file)
-for rec in parser.parse(in_handle, limit_info=limit_info):
+for rec in GFF.parse(in_handle, limit_info=limit_info):
     print rec.features[0]
 in_handle.close()
 ```
@@ -187,13 +184,12 @@ in_handle.close()
 ### Iterating over portions of a file
 
 ``` python
-from BCBio.GFF import GFFParser
+from BCBio import GFF
 
 in_file = "your_file.gff"
-parser = GFFParser()
 
 in_handle = open(in_file)
-for rec in parser.parse_in_parts(in_handle, target_lines=1000):
+for rec in GFF.parse(in_handle, target_lines=1000):
     print rec
 in_handle.close()
 ```
@@ -219,15 +215,15 @@ feature. This handles any arbitrarily deep nesting of parent and child
 features.
 
 ``` python
-from BCBio.GFF import GFF3Writer
+from BCBio import GFF
 from Bio import SeqIO
 
 in_file = "your_file.gb"
 out_file = "your_file.gff"
 in_handle = open(in_file)
 out_handle = open(out_file, "w")
-writer = GFF3Writer()
-writer.write(SeqIO.parse(in_handle, "genbank"), out_handle)
+
+GFF.write(SeqIO.parse(in_handle, "genbank"), out_handle)
 
 in_handle.close()
 out_handle.close()
