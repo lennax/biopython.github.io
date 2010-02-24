@@ -1,6 +1,8 @@
 ---
 title: Phylo
 layout: wiki
+tags:
+ - Wiki Documentation
 ---
 
 This module provides classes, functions and I/O support for working with
