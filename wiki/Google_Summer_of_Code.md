@@ -176,6 +176,6 @@ Degree of difficulty and needed skills : Moderate. Knowledge of the types of inf
 
 <!-- -->
 
-Mentors : [Eric Talevich](User:EricTalevich "wikilink")  
+Mentors : [Eric Talevich](User:EricTalevich "wikilink") (co-mentors welcome)  
 
 
