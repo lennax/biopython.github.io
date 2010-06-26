@@ -16,6 +16,8 @@ Consensus methods
 *TODO:*
 
 -   Majority-rules consensus
+-   Adams
+-   (asymmetric) median tree
 
 Rooting methods
 ---------------
