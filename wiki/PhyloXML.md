@@ -50,7 +50,7 @@ produces an object hierarchy like this:
 
 ``` python
 >>> from Bio import Phylo
->>> tree = Phylo.read('example.xml')
+>>> tree = Phylo.read('example.xml','phyloxml')
 >>> print tree
 ```
 
