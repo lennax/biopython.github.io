@@ -338,8 +338,8 @@ possible implementation and performance issues.
 
 **Procedure**
 
--   Implemented the examples \[hmm\_discrete\] and
-    \[discrete\_hmm\_with\_prior\] in Python, assuming the interface
+-   Implemented the examples hmm\_discrete and
+    discrete\_hmm\_with\_prior in Python, assuming the interface
     Mocapy++ already provides.
 
 <!-- -->
