@@ -4,8 +4,6 @@ tags:
  - Formats|Formats
 ---
 
-[link title](http://www.example.com)
-
 MafIndex
 --------
 
