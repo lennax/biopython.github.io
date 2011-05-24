@@ -3,9 +3,6 @@ title: GSOC2011 MocapyExt
 layout: wiki
 ---
 
-Introduction
-------------
-
 BioPython is a very popular library in Bioinformatics and Computational
 Biology. Mocapy++ is a machine learning toolkit for training and using
 Bayesian networks. However, Mocapy++ is implemented in C++ and its
@@ -17,6 +14,9 @@ which would allow to load and test probability distributions on the fly.
 If a user is working in C++, the user could load/embed arbitrary
 probability distributions in Mocapy++ and then proceed to use them in a
 familiar manner.
+
+Introduction
+------------
 
 Author & Mentors
 ----------------
