@@ -9,7 +9,7 @@ Introduction
 Author & Mentors
 ----------------
 
-[Justinas Daugmaudis](User%3AJustinas_Daugmaudis "wikilink")
+[Justinas V. Daugmaudis](User%3AJustinas_Daugmaudis "wikilink")
 vygis.d@gmail.com
 
 **Mentors**
