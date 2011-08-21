@@ -585,7 +585,7 @@ print model.get_angles() # The sampled angles.
 ```
 
 When creating a model, it is possible to create a new DBN specifying the
-size of the hidden node or loading a DBN from a file.
+size of the hidden node or loading the DBN from a file.
 
 ``` python
 model = TorusDBNModel()
