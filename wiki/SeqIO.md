@@ -1,6 +1,8 @@
 ---
 title: SeqIO
 layout: wiki
+tags:
+ - Wiki Documentation
 ---
 
 This page describes Bio.SeqIO, the standard Sequence Input/Output
