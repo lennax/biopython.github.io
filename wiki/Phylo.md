@@ -64,9 +64,11 @@ from Bio import Phylo</python>
 Like SeqIO and AlignIO, this module provides four I/O functions: parse(), read(), write() and convert(). Each function accepts either a file name or an open file handle, so data can be also loaded from compressed files, StringIO objects, and so on. If the file name is passed as a string, the file is automatically closed when the function finishes; otherwise, you're responsible for closing the handle yourself.
 
 The second argument to each function is the target format. Currently, the following formats are supported:
-* phyloxml
 * newick
 * nexus
+* nexml
+* phyloxml
+* cdao
 
 See the [[PhyloXML]] page for more examples of using tree objects.
 
@@ -171,6 +173,8 @@ additional features.
 **PhyloXMLIO:** Support for the [phyloXML](http://www.phyloxml.org/)
 format. See the [PhyloXML](PhyloXML "wikilink") page for details.
 
+**NeXMLIO:** Support for the [NeXML](http://www.nexml.org/) format.
+
 **NewickIO:** A port of the parser in Bio.Nexus.Trees to support the
 Newick (a.k.a. New Hampshire) format through the Phylo API.
 
@@ -182,8 +186,7 @@ some metadata and one or more Newick trees. (Another kind of Nexus block
 can represent alignments; this is handled in
 [AlignIO](AlignIO "wikilink").) So to parse a complete Nexus file with
 all block types handled, use Bio.Nexus directly, and to extract just the
-trees, use Bio.Phylo. Integration between Bio.Nexus and Bio.Phylo will
-be improved in the future.
+trees, use Bio.Phylo.
 
 Tree and Subtree classes
 ------------------------
