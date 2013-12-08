@@ -13,6 +13,8 @@ Matplotib
 
 RDFLib (epydoc is requesting this)
 
+NetworkX
+
 ### Applications
 
 *I am not particularly fond of the title of this page (tiago), if you
