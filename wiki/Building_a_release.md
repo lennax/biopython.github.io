@@ -3,7 +3,7 @@ title: Building a release
 layout: wiki
 ---
 
-Build Biopython in 22 easy steps!!
+Build Biopython in 23 easy steps!!
 
 Setup required for a new release manager
 ----------------------------------------
@@ -195,7 +195,11 @@ able to upload the new version.
     biopython-announce@biopython.org (see [mailing
     lists](Mailing_lists "wikilink"))
 
-22. Bump version numbers again
+22. Ask Peter, Brad, or Bjoern to prepare a new Galaxy package on
+<https://github.com/biopython/galaxy_packages> and upload it to the main
+and test Galaxy ToolShed
+
+23. Bump version numbers again
 
 -   Update Bio/\_\_init\_\_.py version
 -   Biopython Tutorial - update the date/version line in the
