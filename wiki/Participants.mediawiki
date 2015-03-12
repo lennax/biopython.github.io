@@ -575,4 +575,12 @@ This is only a partial listing, see also the [http://biopython.org/SRC/biopython
 
 | Relevant URL            || http://www.oligopython.org
 
+|-
+
+| Online cakes in Hyderabad || Affy package for Affymetrix data
+
+|-
+
+| Relevant URL            || http://www.coolcake.in/
+
 |}

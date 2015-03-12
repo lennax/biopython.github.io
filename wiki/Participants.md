@@ -228,14 +228,16 @@ Bartek Wilczyński
 Harry Zuzan
 ===========
 
-|                         |                                                      |
-|-------------------------|------------------------------------------------------|
-| E-mail                  | <iliketobicycle@yahoo.ca>                            |
-| Affiliation             | Genome Quebec                                        |
-| Location                | Montreal                                             |
-| Uses Python for         | you name it                                          |
-| Work/Research Interests | Statistics applied to molecular biology and genetics |
-| Biopython Contributions | Affy package for Affymetrix data                     |
-| Relevant URL            | <http://www.oligopython.org>                         |
+|                           |                                                      |
+|---------------------------|------------------------------------------------------|
+| E-mail                    | <iliketobicycle@yahoo.ca>                            |
+| Affiliation               | Genome Quebec                                        |
+| Location                  | Montreal                                             |
+| Uses Python for           | you name it                                          |
+| Work/Research Interests   | Statistics applied to molecular biology and genetics |
+| Biopython Contributions   | Affy package for Affymetrix data                     |
+| Relevant URL              | <http://www.oligopython.org>                         |
+| Online cakes in Hyderabad | Affy package for Affymetrix data                     |
+| Relevant URL              | <http://www.coolcake.in/>                            |
 
 
