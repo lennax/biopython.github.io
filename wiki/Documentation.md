@@ -1,6 +1,6 @@
 ---
 title: Documentation
-layout: wiki
+layout: page
 ---
 
 #### Documentation

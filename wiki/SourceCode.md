@@ -1,6 +1,6 @@
 ---
 title: SourceCode
-layout: wiki
+layout: page
 ---
 
 ### Introduction

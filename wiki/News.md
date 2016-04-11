@@ -1,6 +1,6 @@
 ---
 title: News
-layout: wiki
+layout: page
 ---
 
 [Biopython

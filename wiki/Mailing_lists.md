@@ -1,6 +1,6 @@
 ---
 title: Mailing lists
-layout: wiki
+layout: page
 ---
 
 ### Discussion and questions
