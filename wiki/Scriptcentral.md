@@ -1,6 +1,6 @@
 ---
 title: Scriptcentral
-layout: wiki
+layout: page
 ---
 
 |             |                                                                                                                                                                                      |
