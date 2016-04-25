@@ -28,15 +28,15 @@ supermatrix but still apply different substitution models to each gene
 within in it or run PAUP\*'s Partition Homogeneity Test to check for
 significant difference in the rate/topology of each gene tree.
 
-The Bio.Nexus module makes concatenating multiple alignments into a
+The `Bio.Nexus` module makes concatenating multiple alignments into a
 supermatrix relatively straight forward.
 
 The Solution
 ------------
 
 Say we have NEXUS files for three genes,
-[btCOI.nex](http://atavism.webs.com/btCOI.nex),[btCOII.nex](http://atavism.webs.com/btCOII.nex)
-and [btITS.nex](http://atavism.webs.com/btITS.nex), containing
+[btCOI.nex](btCOI.nex),[btCOII.nex](btCOII.nex)
+and [btITS.nex](btITS.nex), containing
 alignments:
 
     #COI
@@ -53,7 +53,7 @@ alignments:
     bt3 -TTTTTTT
     bt4 -TTTTTTT
 
-We can use the Nexus module to make a supermatrix:
+We can use the `Nexus` module to make a supermatrix:
 
 ``` python
 from Bio.Nexus import Nexus
@@ -61,14 +61,14 @@ from Bio.Nexus import Nexus
 #if we provide the file names in a list we can use a list comprehension to 
 # create these tuples
 
-file_list = ['btCOI.nex', 'btCOII.nex', 'btITS.nex]   
+file_list = ['btCOI.nex', 'btCOII.nex', 'btITS.nex']   
 nexi =  [(fname, Nexus.Nexus(fname)) for fname in file_list]
 
 combined = Nexus.combine(nexi)
 combined.write_nexus_data(filename=open('btCOMBINED.nex', 'w'))
 ```
 
-That was easy! Lets look at our combined file
+That was easy! Let's look at our combined file
 
     #NEXUS
     begin data;
@@ -95,10 +95,10 @@ wasn't in the other files. In these cases the combine function adds the
 taxon with missing data (the '?'s) for the other character partitions.
 Sometimes this might be the result you want but having a few taxa like
 this is also a very good way to make a Partition Homogeneity Test run
-for a week. Lets write a function that tests that the same taxa are
+for a week. Let's write a function that tests that the same taxa are
 represented in a set of nexus instances and provides a useful error
-message if not (i.e., what to delete from your NEXUS files if you want
-them to combine nicely)
+message if not (i.e. what to delete from your NEXUS files if you want
+them to combine nicely).
 
 ``` python
 def check_taxa(matrices):  
@@ -157,5 +157,5 @@ And now, using our new functions:
 Discussion
 ----------
 
-The details of the Nexus class are provided in the [API
-Domcumentation](http://www.biopython.org/DIST/docs/api/Bio.Nexus.Nexus-pysrc.html)
+The details of the `Nexus` class are provided in the [API
+Documentation](http://www.biopython.org/DIST/docs/api/Bio.Nexus.Nexus-pysrc.html).
